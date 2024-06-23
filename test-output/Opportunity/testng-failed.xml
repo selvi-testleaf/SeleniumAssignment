@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Opportunity]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="AutomateOpportunityFunctionality(failed)">
+    <classes>
+      <class name="sprint1.CreateOpportunity">
+        <methods>
+          <include name="NewOpportunity"/>
+        </methods>
+      </class> <!-- sprint1.CreateOpportunity -->
+      <class name="sprint1.SAL011_4_CreateOpportunityWithoutMandatoryFields">
+        <methods>
+          <include name="createOpportunityWithoutMandatoryFields"/>
+        </methods>
+      </class> <!-- sprint1.SAL011_4_CreateOpportunityWithoutMandatoryFields -->
+      <class name="sprint1.SAL011_2_EditOpportunity">
+        <methods>
+          <include name="editOpportunity"/>
+        </methods>
+      </class> <!-- sprint1.SAL011_2_EditOpportunity -->
+      <class name="sprint1.SAL_Assignment_Selvi">
+        <methods>
+          <include name="createOpportunity"/>
+        </methods>
+      </class> <!-- sprint1.SAL_Assignment_Selvi -->
+    </classes>
+  </test> <!-- AutomateOpportunityFunctionality(failed) -->
+</suite> <!-- Failed suite [Opportunity] -->

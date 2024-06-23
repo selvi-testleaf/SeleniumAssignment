@@ -6,45 +6,20 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
+
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
 
 
-public class SAL_Assignment_Selvi {
- public static void main(String[] args) throws InterruptedException {
+public class SAL_Assignment_Selvi extends Hooks{
+	@Test
+ public  void createOpportunity() throws InterruptedException {
 	
 	 
-	 //Launch Browser
-	 ChromeOptions option = new ChromeOptions();
-	 option.addArguments("--disable-notifications");// disable notification
-	 
-	//1. Login to https://login.salesforce.com
-	 ChromeDriver driver = new ChromeDriver(option);
-	    driver.get("https://login.salesforce.com");
-	    driver.manage().window().maximize();//Maximize window
-	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));//implicit wait 
-	 
 	
-	 //Enter credentials
-	 
-	    driver.findElement(By.id("username")).sendKeys("bootcamp_2024@testleaf.com");//username
-	    driver.findElement(By.id("password")).sendKeys("Bootcamp@123");//password
-	    driver.findElement(By.id("Login")).click();//enter login
-	    System.out.println("1.Logged successfully.");
 		
-	  		// 2. Click on toggle menu button from the left corner
-	 
-	    driver.findElement(By.xpath("//div[@class='slds-icon-waffle']")).click();
-	    System.out.println("2.Toggle menu button clicked.");
-	    
-		 //3. Click view All 
-	    driver.findElement(By.xpath("//button[text()='View All']")).click();//click on 'view all'
-	    System.out.println("3.view all button clicked.");
 		
-		 //4. Click Sales from App Launcher
-	    driver.findElement(By.xpath("//input[@placeholder='Search apps or items...']")).sendKeys("sales");// type sales in search box
-		driver.findElement(By.xpath("(//p[@class='slds-truncate']//mark)[3]")).click();// click on sales
-		System.out.println("4.'Sales' page opened.");
 		 //5. Select Home from the DropDown
 		//driver.findElement(By.xpath("(//button[@part='button button-icon']//lightning-primitive-icon)[3]")).click();
 		
@@ -109,10 +84,13 @@ public class SAL_Assignment_Selvi {
   		//WebElement subscribe=driver.findElement(By.xpath("(//button[contains(@class,'slds-button slds-button_icon-border')]//lightning-primitive-icon)[2]"));
   		//subscribe.click();
   		//driver.findElement(By.xpath("//span[text()='Subscribe']")).click();
-  		driver.switchTo().frame(frameDashboardElement);
-  		WebElement frameDashboardElement1 = driver.findElement(By.xpath("//iframe[@name='sfxdash-1718970156881-118275']"));
-		driver.switchTo().frame(frameDashboardElement1);
-         WebElement Subscribe = driver.findElement(By.xpath("//div[@id='jsaA0dFz-']//button[@class='slds-button slds-button_neutral']"));
+  		
+  		WebDriverWait wait= new WebDriverWait(driver,Duration.ofSeconds(15));
+  		wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(1));
+  		
+  		driver.switchTo().frame(driver.findElement(By.xpath("(//iframe[@title='dashboard'])[2]")));
+  		Thread.sleep(3000);
+  		WebElement Subscribe = driver.findElement(By.xpath("//button[text()='Subscribe']"));
  		((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(); arguments[0].click();", Subscribe);
  		driver.switchTo().defaultContent();
  		
@@ -190,7 +168,7 @@ public class SAL_Assignment_Selvi {
               System.out.println("26. The dashboard 'Selvi_Workout' still exists.");
           }
 
-          driver.quit();
+        
       }
 
  }

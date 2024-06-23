@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AutomateOpportunity Functionality">
+  <test thread-count="5" name="Opportunity" verbose="5">
+    <classes>
+      <class name="sprint1.SAL011_2_EditOpportunity"/>
+      <class name="sprint1.SAL011_3_DeleteOpportunity"/>
+      <class name="sprint1.a1"/>
+      <class name="sprint1.SAL011_4_CreateOpportunityWithoutMandatoryFields"/>
+      <class name="sprint1.SAL011_1_CreateOpportunity"/>
+      <class name="sprint1.SAL_Assignment_Selvi"/>
+      <class name="sprint1.CreateOpportunity"/>
+    </classes>
+  </test> <!-- Opportunity -->
+</suite> <!-- AutomateOpportunity Functionality -->

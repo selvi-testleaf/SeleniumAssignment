@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Opportunity" parallel="classes">
+  <test thread-count="2" name="AutomateOpportunityFunctionality">
+    <classes>
+        <class name="sprint1.CreateOpportunity"/>
+      <class name="sprint1.SAL011_4_CreateOpportunityWithoutMandatoryFields"/>
+      <class name="sprint1.SAL011_2_EditOpportunity"/>
+      <class name="sprint1.SAL011_3_DeleteOpportunity"/>
+       <class name="sprint1.SAL_Assignment_Selvi"/>
+      
+     
+    </classes>
+  </test> <!-- AutomateOpportunityFunctionality -->
+  
+  
+  <test thread-count="2" name="AutomateAccountsFunctionality">
+    <classes>
+        <class name="sprint2.SAL011_6_CreateAccounts"/>
+      <class name="sprint2.SAL011_7_EditAccounts"/>
+     
+       </classes>
+  </test> <!-- AutomateAccountsFunctionality -->
+</suite> <!-- Opportunity -->
