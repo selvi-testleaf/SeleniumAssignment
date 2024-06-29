@@ -12,6 +12,11 @@
 			<artifactId>selenium-java</artifactId>
 			<version>4.13.0</version>
 		</dependency>
+		
+		<!-- Selenium DevTools dependency. -->
+		
+	
+		
 		<!-- Browser Driver download and path set -->
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>

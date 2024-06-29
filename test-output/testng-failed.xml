@@ -5,11 +5,12 @@
     <classes>
       <class name="sprint1.CreateOpportunity">
         <methods>
+          <include name="stopTheScript"/>
           <include name="testCaseDetails"/>
           <include name="startReport"/>
-          <include name="PostConditions"/>
           <include name="PreConditions"/>
-          <include name="NewOpportunity"/>
+          <include name="ErrorScreenshot"/>
+          <include name="NewOpportunity" invocation-numbers="1 1 1 2 2 2"/>
         </methods>
       </class> <!-- sprint1.CreateOpportunity -->
     </classes>

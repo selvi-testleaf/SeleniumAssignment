@@ -3,15 +3,16 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="sprint1.SAL_Assignment_Selvi">
+      <class name="sprint1.CreateOpportunity">
         <methods>
+          <include name="stopTheScript"/>
           <include name="testCaseDetails"/>
           <include name="startReport"/>
           <include name="PostConditions"/>
           <include name="PreConditions"/>
-          <include name="createOpportunity"/>
+          <include name="NewOpportunity" invocation-numbers="1 2"/>
         </methods>
-      </class> <!-- sprint1.SAL_Assignment_Selvi -->
+      </class> <!-- sprint1.CreateOpportunity -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

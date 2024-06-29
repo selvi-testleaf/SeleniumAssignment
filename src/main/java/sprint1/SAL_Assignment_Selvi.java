@@ -13,10 +13,21 @@ import org.testng.annotations.Test;
 
 
 public class SAL_Assignment_Selvi extends Hooks{
-	@Test
- public  void createOpportunity() throws InterruptedException {
+	@Test(dataProvider = "loginTestData", dataProviderClass = Hooks.class,retryAnalyzer = RetryClass.class)
+
+ public  void createOpportunity(String url, String uname, String pwd) throws InterruptedException {
 	
-	 
+
+		// 2. Click on the toggle menu button from the left corner
+		driver.findElement(By.xpath("//div[@class='slds-icon-waffle']")).click();
+
+		// 3. Click View All and click Sales from the Application Launcher
+		driver.findElement(By.xpath("//button[text()='View All']")).click();// click on 'view all'
+		driver.findElement(By.xpath("//input[@placeholder='Search apps or items...']")).sendKeys("sales");// type sales in search box
+		driver.findElement(By.xpath("(//p[@class='slds-truncate']//mark)[3]")).click();// click on sales
+
+		// Initialize webDriver Wait
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
 	
 		
 		
@@ -85,7 +96,7 @@ public class SAL_Assignment_Selvi extends Hooks{
   		//subscribe.click();
   		//driver.findElement(By.xpath("//span[text()='Subscribe']")).click();
   		
-  		WebDriverWait wait= new WebDriverWait(driver,Duration.ofSeconds(15));
+  		
   		wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(1));
   		
   		driver.switchTo().frame(driver.findElement(By.xpath("(//iframe[@title='dashboard'])[2]")));
