@@ -32,15 +32,16 @@ public class Hooks {
 
 
 	@DataProvider(name = "loginTestData")
-	public Object[][] Logindata() {
-		return new Object[][] { 
-			{ "https://login.salesforce.com/","bootcamp_2024@testleaf.com", "Bootcamp@123" },
-			{ "https://login.salesforce.com/","bootcamp_2024@testleaf.com", "Bootcamp@12" },
-			{ "https://login.salesforce.com/","bootcamp_2024@testleaf.com", "Bootcamp123" },
+	public String[][] Logindata() {
+		String[][] excelData = ReadExcel.getExcelData();
+		//return new Object[][] { 
+			//{ "https://login.salesforce.com/","bootcamp_2024@testleaf.com", "Bootcamp@123" },
+			//{ "https://login.salesforce.com/","bootcamp_2024@testleaf.com", "Bootcamp@12" },
+			//{ "https://login.salesforce.com/","bootcamp_2024@testleaf.com", "Bootcamp123" },
+		return excelData;
 			
 			
-
-		};
+		//};
 	}
 
 	@BeforeMethod

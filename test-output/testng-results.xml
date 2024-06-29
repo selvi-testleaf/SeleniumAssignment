@@ -2,31 +2,31 @@
 <testng-results retried="4" ignored="0" total="7" passed="1" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-29T14:59:35 IST" name="Default suite" finished-at="2024-06-29T15:03:43 IST" duration-ms="248541">
+  <suite started-at="2024-06-29T17:53:41 IST" name="Default suite" finished-at="2024-06-29T17:57:41 IST" duration-ms="240592">
     <groups>
     </groups>
-    <test started-at="2024-06-29T14:59:35 IST" name="Default test" finished-at="2024-06-29T15:03:43 IST" duration-ms="248541">
+    <test started-at="2024-06-29T17:53:41 IST" name="Default test" finished-at="2024-06-29T17:57:41 IST" duration-ms="240592">
       <class name="sprint1.CreateOpportunity">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:sprint1.CreateOpportunity@506ae4d4]" started-at="2024-06-29T14:59:35 IST" name="startReport" finished-at="2024-06-29T14:59:35 IST" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:sprint1.CreateOpportunity@b9b00e0]" started-at="2024-06-29T17:53:41 IST" name="startReport" finished-at="2024-06-29T17:53:41 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="testCaseDetails()[pri:0, instance:sprint1.CreateOpportunity@506ae4d4]" started-at="2024-06-29T14:59:35 IST" name="testCaseDetails" finished-at="2024-06-29T14:59:35 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="testCaseDetails()[pri:0, instance:sprint1.CreateOpportunity@b9b00e0]" started-at="2024-06-29T17:53:41 IST" name="testCaseDetails" finished-at="2024-06-29T17:53:41 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseDetails -->
-        <test-method is-config="true" signature="PreConditions([Ljava.lang.Object;)[pri:0, instance:sprint1.CreateOpportunity@506ae4d4]" started-at="2024-06-29T14:59:35 IST" name="PreConditions" finished-at="2024-06-29T14:59:47 IST" duration-ms="12535" status="PASS">
+        <test-method is-config="true" signature="PreConditions([Ljava.lang.Object;)[pri:0, instance:sprint1.CreateOpportunity@b9b00e0]" started-at="2024-06-29T17:53:42 IST" name="PreConditions" finished-at="2024-06-29T17:53:54 IST" duration-ms="11485" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Object;@16aed49f]]>
+                <![CDATA[[Ljava.lang.Object;@7f0f84d4]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreConditions -->
-        <test-method signature="NewOpportunity(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sprint1.CreateOpportunity@506ae4d4]" started-at="2024-06-29T14:59:47 IST" name="NewOpportunity" data-provider="loginTestData" finished-at="2024-06-29T15:00:05 IST" duration-ms="17652" status="PASS">
+        <test-method signature="NewOpportunity(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sprint1.CreateOpportunity@b9b00e0]" started-at="2024-06-29T17:53:54 IST" name="NewOpportunity" data-provider="loginTestData" finished-at="2024-06-29T17:54:07 IST" duration-ms="13639" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,29 +47,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NewOpportunity -->
-        <test-method is-config="true" signature="ErrorScreenshot(org.testng.ITestResult)[pri:0, instance:sprint1.CreateOpportunity@506ae4d4]" started-at="2024-06-29T15:00:05 IST" name="ErrorScreenshot" finished-at="2024-06-29T15:00:06 IST" duration-ms="443" status="PASS">
+        <test-method is-config="true" signature="ErrorScreenshot(org.testng.ITestResult)[pri:0, instance:sprint1.CreateOpportunity@b9b00e0]" started-at="2024-06-29T17:54:07 IST" name="ErrorScreenshot" finished-at="2024-06-29T17:54:08 IST" duration-ms="414" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=NewOpportunity status=SUCCESS method=CreateOpportunity.NewOpportunity(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sprint1.CreateOpportunity@506ae4d4] output={null}]]]>
+                <![CDATA[[TestResult name=NewOpportunity status=SUCCESS method=CreateOpportunity.NewOpportunity(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sprint1.CreateOpportunity@b9b00e0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ErrorScreenshot -->
-        <test-method is-config="true" signature="PreConditions([Ljava.lang.Object;)[pri:0, instance:sprint1.CreateOpportunity@506ae4d4]" started-at="2024-06-29T15:00:06 IST" name="PreConditions" finished-at="2024-06-29T15:00:11 IST" duration-ms="5158" status="PASS">
+        <test-method is-config="true" signature="PreConditions([Ljava.lang.Object;)[pri:0, instance:sprint1.CreateOpportunity@b9b00e0]" started-at="2024-06-29T17:54:08 IST" name="PreConditions" finished-at="2024-06-29T17:54:14 IST" duration-ms="6708" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Object;@66de00f2]]>
+                <![CDATA[[Ljava.lang.Object;@6df4af5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreConditions -->
-        <test-method retried="true" signature="NewOpportunity(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sprint1.CreateOpportunity@506ae4d4]" started-at="2024-06-29T15:00:11 IST" name="NewOpportunity" data-provider="loginTestData" finished-at="2024-06-29T15:00:41 IST" duration-ms="30065" status="SKIP">
+        <test-method retried="true" signature="NewOpportunity(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sprint1.CreateOpportunity@b9b00e0]" started-at="2024-06-29T17:54:14 IST" name="NewOpportunity" data-provider="loginTestData" finished-at="2024-06-29T17:54:44 IST" duration-ms="30037" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -95,9 +95,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bb4f4f2c0493594e65a8e5fea6b129af, findElement {using=xpath, value=//div[@class='slds-icon-waffle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\PHANTOM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51648}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51648/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bb4f4f2c0493594e65a8e5fea6b129af]]>
+Command: [59cdff3d2279dae988bdb06bb4284b2a, findElement {using=xpath, value=//div[@class='slds-icon-waffle']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\PHANTOM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57119}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57119/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 59cdff3d2279dae988bdb06bb4284b2a]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='slds-icon-waffle']"}
@@ -106,9 +106,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bb4f4f2c0493594e65a8e5fea6b129af, findElement {using=xpath, value=//div[@class='slds-icon-waffle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\PHANTOM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51648}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51648/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bb4f4f2c0493594e65a8e5fea6b129af
+Command: [59cdff3d2279dae988bdb06bb4284b2a, findElement {using=xpath, value=//div[@class='slds-icon-waffle']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\PHANTOM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57119}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57119/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 59cdff3d2279dae988bdb06bb4284b2a
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -160,29 +160,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NewOpportunity -->
-        <test-method is-config="true" signature="ErrorScreenshot(org.testng.ITestResult)[pri:0, instance:sprint1.CreateOpportunity@506ae4d4]" started-at="2024-06-29T15:00:41 IST" name="ErrorScreenshot" finished-at="2024-06-29T15:00:41 IST" duration-ms="418" status="PASS">
+        <test-method is-config="true" signature="ErrorScreenshot(org.testng.ITestResult)[pri:0, instance:sprint1.CreateOpportunity@b9b00e0]" started-at="2024-06-29T17:54:44 IST" name="ErrorScreenshot" finished-at="2024-06-29T17:54:45 IST" duration-ms="382" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=NewOpportunity status=SKIP method=CreateOpportunity.NewOpportunity(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sprint1.CreateOpportunity@506ae4d4] output={null}]]]>
+                <![CDATA[[TestResult name=NewOpportunity status=SKIP method=CreateOpportunity.NewOpportunity(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sprint1.CreateOpportunity@b9b00e0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ErrorScreenshot -->
-        <test-method is-config="true" signature="PreConditions([Ljava.lang.Object;)[pri:0, instance:sprint1.CreateOpportunity@506ae4d4]" started-at="2024-06-29T15:00:41 IST" name="PreConditions" finished-at="2024-06-29T15:00:48 IST" duration-ms="6460" status="PASS">
+        <test-method is-config="true" signature="PreConditions([Ljava.lang.Object;)[pri:0, instance:sprint1.CreateOpportunity@b9b00e0]" started-at="2024-06-29T17:54:45 IST" name="PreConditions" finished-at="2024-06-29T17:54:49 IST" duration-ms="4503" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Object;@ffd4cba]]>
+                <![CDATA[[Ljava.lang.String;@25791d40]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreConditions -->
-        <test-method retried="true" signature="NewOpportunity(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sprint1.CreateOpportunity@506ae4d4]" started-at="2024-06-29T15:00:48 IST" name="NewOpportunity" data-provider="loginTestData" finished-at="2024-06-29T15:01:18 IST" duration-ms="30029" status="SKIP">
+        <test-method retried="true" signature="NewOpportunity(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sprint1.CreateOpportunity@b9b00e0]" started-at="2024-06-29T17:54:49 IST" name="NewOpportunity" data-provider="loginTestData" finished-at="2024-06-29T17:55:19 IST" duration-ms="30037" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -208,9 +208,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ef3717033da1357773eb00b0246020d3, findElement {using=xpath, value=//div[@class='slds-icon-waffle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\PHANTOM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51768}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51768/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ef3717033da1357773eb00b0246020d3]]>
+Command: [fa59a5931df6c420b5fb825abf3ebe16, findElement {using=xpath, value=//div[@class='slds-icon-waffle']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\PHANTOM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57188}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57188/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa59a5931df6c420b5fb825abf3ebe16]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='slds-icon-waffle']"}
@@ -219,9 +219,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ef3717033da1357773eb00b0246020d3, findElement {using=xpath, value=//div[@class='slds-icon-waffle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\PHANTOM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51768}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51768/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ef3717033da1357773eb00b0246020d3
+Command: [fa59a5931df6c420b5fb825abf3ebe16, findElement {using=xpath, value=//div[@class='slds-icon-waffle']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\PHANTOM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57188}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57188/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa59a5931df6c420b5fb825abf3ebe16
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -273,29 +273,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NewOpportunity -->
-        <test-method is-config="true" signature="ErrorScreenshot(org.testng.ITestResult)[pri:0, instance:sprint1.CreateOpportunity@506ae4d4]" started-at="2024-06-29T15:01:18 IST" name="ErrorScreenshot" finished-at="2024-06-29T15:01:18 IST" duration-ms="423" status="PASS">
+        <test-method is-config="true" signature="ErrorScreenshot(org.testng.ITestResult)[pri:0, instance:sprint1.CreateOpportunity@b9b00e0]" started-at="2024-06-29T17:55:19 IST" name="ErrorScreenshot" finished-at="2024-06-29T17:55:20 IST" duration-ms="393" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=NewOpportunity status=SKIP method=CreateOpportunity.NewOpportunity(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sprint1.CreateOpportunity@506ae4d4] output={null}]]]>
+                <![CDATA[[TestResult name=NewOpportunity status=SKIP method=CreateOpportunity.NewOpportunity(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sprint1.CreateOpportunity@b9b00e0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ErrorScreenshot -->
-        <test-method is-config="true" signature="PreConditions([Ljava.lang.Object;)[pri:0, instance:sprint1.CreateOpportunity@506ae4d4]" started-at="2024-06-29T15:01:18 IST" name="PreConditions" finished-at="2024-06-29T15:01:25 IST" duration-ms="7295" status="PASS">
+        <test-method is-config="true" signature="PreConditions([Ljava.lang.Object;)[pri:0, instance:sprint1.CreateOpportunity@b9b00e0]" started-at="2024-06-29T17:55:20 IST" name="PreConditions" finished-at="2024-06-29T17:55:25 IST" duration-ms="4958" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Object;@5f1483fd]]>
+                <![CDATA[[Ljava.lang.String;@448c92fc]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreConditions -->
-        <test-method signature="NewOpportunity(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sprint1.CreateOpportunity@506ae4d4]" started-at="2024-06-29T15:01:25 IST" name="NewOpportunity" data-provider="loginTestData" finished-at="2024-06-29T15:01:55 IST" duration-ms="30071" status="FAIL">
+        <test-method signature="NewOpportunity(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sprint1.CreateOpportunity@b9b00e0]" started-at="2024-06-29T17:55:25 IST" name="NewOpportunity" data-provider="loginTestData" finished-at="2024-06-29T17:55:55 IST" duration-ms="30062" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -321,9 +321,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [11842bf5c94b2e0a7fd67a0a0362d1c1, findElement {using=xpath, value=//div[@class='slds-icon-waffle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\PHANTOM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51815}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51815/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 11842bf5c94b2e0a7fd67a0a0362d1c1]]>
+Command: [6fc3cf6c80ed5b8d119a46a6e9beeba0, findElement {using=xpath, value=//div[@class='slds-icon-waffle']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\PHANTOM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57244}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57244/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6fc3cf6c80ed5b8d119a46a6e9beeba0]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='slds-icon-waffle']"}
@@ -332,9 +332,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [11842bf5c94b2e0a7fd67a0a0362d1c1, findElement {using=xpath, value=//div[@class='slds-icon-waffle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\PHANTOM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51815}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51815/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 11842bf5c94b2e0a7fd67a0a0362d1c1
+Command: [6fc3cf6c80ed5b8d119a46a6e9beeba0, findElement {using=xpath, value=//div[@class='slds-icon-waffle']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\PHANTOM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57244}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57244/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6fc3cf6c80ed5b8d119a46a6e9beeba0
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -386,29 +386,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NewOpportunity -->
-        <test-method is-config="true" signature="ErrorScreenshot(org.testng.ITestResult)[pri:0, instance:sprint1.CreateOpportunity@506ae4d4]" started-at="2024-06-29T15:01:55 IST" name="ErrorScreenshot" finished-at="2024-06-29T15:01:56 IST" duration-ms="504" status="PASS">
+        <test-method is-config="true" signature="ErrorScreenshot(org.testng.ITestResult)[pri:0, instance:sprint1.CreateOpportunity@b9b00e0]" started-at="2024-06-29T17:55:55 IST" name="ErrorScreenshot" finished-at="2024-06-29T17:55:55 IST" duration-ms="654" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=NewOpportunity status=FAILURE method=CreateOpportunity.NewOpportunity(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sprint1.CreateOpportunity@506ae4d4] output={null}]]]>
+                <![CDATA[[TestResult name=NewOpportunity status=FAILURE method=CreateOpportunity.NewOpportunity(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sprint1.CreateOpportunity@b9b00e0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ErrorScreenshot -->
-        <test-method is-config="true" signature="PreConditions([Ljava.lang.Object;)[pri:0, instance:sprint1.CreateOpportunity@506ae4d4]" started-at="2024-06-29T15:01:56 IST" name="PreConditions" finished-at="2024-06-29T15:02:01 IST" duration-ms="4719" status="PASS">
+        <test-method is-config="true" signature="PreConditions([Ljava.lang.Object;)[pri:0, instance:sprint1.CreateOpportunity@b9b00e0]" started-at="2024-06-29T17:55:55 IST" name="PreConditions" finished-at="2024-06-29T17:56:00 IST" duration-ms="4623" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Object;@670f2466]]>
+                <![CDATA[[Ljava.lang.Object;@251c8145]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreConditions -->
-        <test-method retried="true" signature="NewOpportunity(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sprint1.CreateOpportunity@506ae4d4]" started-at="2024-06-29T15:02:01 IST" name="NewOpportunity" data-provider="loginTestData" finished-at="2024-06-29T15:02:31 IST" duration-ms="30060" status="SKIP">
+        <test-method retried="true" signature="NewOpportunity(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sprint1.CreateOpportunity@b9b00e0]" started-at="2024-06-29T17:56:00 IST" name="NewOpportunity" data-provider="loginTestData" finished-at="2024-06-29T17:56:30 IST" duration-ms="30066" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -422,7 +422,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="2">
               <value>
-                <![CDATA[Bootcamp123]]>
+                <![CDATA[Bootcamp@23]]>
               </value>
             </param>
           </params>
@@ -434,9 +434,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [94ed02d30ff680d82cb12f38d137744a, findElement {using=xpath, value=//div[@class='slds-icon-waffle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\PHANTOM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51869}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51869/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 94ed02d30ff680d82cb12f38d137744a]]>
+Command: [453ea6fa10a125f793f4566253f1459b, findElement {using=xpath, value=//div[@class='slds-icon-waffle']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\PHANTOM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57304}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57304/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 453ea6fa10a125f793f4566253f1459b]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='slds-icon-waffle']"}
@@ -445,9 +445,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [94ed02d30ff680d82cb12f38d137744a, findElement {using=xpath, value=//div[@class='slds-icon-waffle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\PHANTOM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51869}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51869/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 94ed02d30ff680d82cb12f38d137744a
+Command: [453ea6fa10a125f793f4566253f1459b, findElement {using=xpath, value=//div[@class='slds-icon-waffle']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\PHANTOM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57304}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57304/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 453ea6fa10a125f793f4566253f1459b
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -499,29 +499,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NewOpportunity -->
-        <test-method is-config="true" signature="ErrorScreenshot(org.testng.ITestResult)[pri:0, instance:sprint1.CreateOpportunity@506ae4d4]" started-at="2024-06-29T15:02:31 IST" name="ErrorScreenshot" finished-at="2024-06-29T15:02:31 IST" duration-ms="336" status="PASS">
+        <test-method is-config="true" signature="ErrorScreenshot(org.testng.ITestResult)[pri:0, instance:sprint1.CreateOpportunity@b9b00e0]" started-at="2024-06-29T17:56:30 IST" name="ErrorScreenshot" finished-at="2024-06-29T17:56:31 IST" duration-ms="481" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=NewOpportunity status=SKIP method=CreateOpportunity.NewOpportunity(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sprint1.CreateOpportunity@506ae4d4] output={null}]]]>
+                <![CDATA[[TestResult name=NewOpportunity status=SKIP method=CreateOpportunity.NewOpportunity(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sprint1.CreateOpportunity@b9b00e0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ErrorScreenshot -->
-        <test-method is-config="true" signature="PreConditions([Ljava.lang.Object;)[pri:0, instance:sprint1.CreateOpportunity@506ae4d4]" started-at="2024-06-29T15:02:31 IST" name="PreConditions" finished-at="2024-06-29T15:02:37 IST" duration-ms="5667" status="PASS">
+        <test-method is-config="true" signature="PreConditions([Ljava.lang.Object;)[pri:0, instance:sprint1.CreateOpportunity@b9b00e0]" started-at="2024-06-29T17:56:31 IST" name="PreConditions" finished-at="2024-06-29T17:56:36 IST" duration-ms="5112" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Object;@6e03db1f]]>
+                <![CDATA[[Ljava.lang.String;@17c0274c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreConditions -->
-        <test-method retried="true" signature="NewOpportunity(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sprint1.CreateOpportunity@506ae4d4]" started-at="2024-06-29T15:02:37 IST" name="NewOpportunity" data-provider="loginTestData" finished-at="2024-06-29T15:03:07 IST" duration-ms="30083" status="SKIP">
+        <test-method retried="true" signature="NewOpportunity(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sprint1.CreateOpportunity@b9b00e0]" started-at="2024-06-29T17:56:36 IST" name="NewOpportunity" data-provider="loginTestData" finished-at="2024-06-29T17:57:06 IST" duration-ms="30073" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -535,7 +535,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="2">
               <value>
-                <![CDATA[Bootcamp123]]>
+                <![CDATA[Bootcamp@23]]>
               </value>
             </param>
           </params>
@@ -547,9 +547,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b6a55de794c58e85c3ee17cfa0017dbe, findElement {using=xpath, value=//div[@class='slds-icon-waffle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\PHANTOM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51911}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51911/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b6a55de794c58e85c3ee17cfa0017dbe]]>
+Command: [df9f073b91a1937de494523d9aade7a8, findElement {using=xpath, value=//div[@class='slds-icon-waffle']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\PHANTOM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57367}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57367/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: df9f073b91a1937de494523d9aade7a8]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='slds-icon-waffle']"}
@@ -558,9 +558,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b6a55de794c58e85c3ee17cfa0017dbe, findElement {using=xpath, value=//div[@class='slds-icon-waffle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\PHANTOM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51911}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51911/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b6a55de794c58e85c3ee17cfa0017dbe
+Command: [df9f073b91a1937de494523d9aade7a8, findElement {using=xpath, value=//div[@class='slds-icon-waffle']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\PHANTOM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57367}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57367/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: df9f073b91a1937de494523d9aade7a8
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -612,29 +612,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NewOpportunity -->
-        <test-method is-config="true" signature="ErrorScreenshot(org.testng.ITestResult)[pri:0, instance:sprint1.CreateOpportunity@506ae4d4]" started-at="2024-06-29T15:03:07 IST" name="ErrorScreenshot" finished-at="2024-06-29T15:03:07 IST" duration-ms="307" status="PASS">
+        <test-method is-config="true" signature="ErrorScreenshot(org.testng.ITestResult)[pri:0, instance:sprint1.CreateOpportunity@b9b00e0]" started-at="2024-06-29T17:57:06 IST" name="ErrorScreenshot" finished-at="2024-06-29T17:57:06 IST" duration-ms="379" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=NewOpportunity status=SKIP method=CreateOpportunity.NewOpportunity(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sprint1.CreateOpportunity@506ae4d4] output={null}]]]>
+                <![CDATA[[TestResult name=NewOpportunity status=SKIP method=CreateOpportunity.NewOpportunity(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sprint1.CreateOpportunity@b9b00e0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ErrorScreenshot -->
-        <test-method is-config="true" signature="PreConditions([Ljava.lang.Object;)[pri:0, instance:sprint1.CreateOpportunity@506ae4d4]" started-at="2024-06-29T15:03:07 IST" name="PreConditions" finished-at="2024-06-29T15:03:13 IST" duration-ms="5832" status="PASS">
+        <test-method is-config="true" signature="PreConditions([Ljava.lang.Object;)[pri:0, instance:sprint1.CreateOpportunity@b9b00e0]" started-at="2024-06-29T17:57:06 IST" name="PreConditions" finished-at="2024-06-29T17:57:11 IST" duration-ms="4510" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Object;@bfec2f9]]>
+                <![CDATA[[Ljava.lang.String;@7abeabe9]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreConditions -->
-        <test-method signature="NewOpportunity(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sprint1.CreateOpportunity@506ae4d4]" started-at="2024-06-29T15:03:13 IST" name="NewOpportunity" data-provider="loginTestData" finished-at="2024-06-29T15:03:43 IST" duration-ms="30049" status="FAIL">
+        <test-method signature="NewOpportunity(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sprint1.CreateOpportunity@b9b00e0]" started-at="2024-06-29T17:57:11 IST" name="NewOpportunity" data-provider="loginTestData" finished-at="2024-06-29T17:57:41 IST" duration-ms="30064" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -648,7 +648,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="2">
               <value>
-                <![CDATA[Bootcamp123]]>
+                <![CDATA[Bootcamp@23]]>
               </value>
             </param>
           </params>
@@ -660,9 +660,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f10c0573b2b0ee743d8ef5b4ba8be544, findElement {using=xpath, value=//div[@class='slds-icon-waffle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\PHANTOM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51954}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51954/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f10c0573b2b0ee743d8ef5b4ba8be544]]>
+Command: [b4531fe35eb4505a98dc6617a66ce886, findElement {using=xpath, value=//div[@class='slds-icon-waffle']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\PHANTOM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57427}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57427/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b4531fe35eb4505a98dc6617a66ce886]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='slds-icon-waffle']"}
@@ -671,9 +671,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f10c0573b2b0ee743d8ef5b4ba8be544, findElement {using=xpath, value=//div[@class='slds-icon-waffle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\PHANTOM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51954}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51954/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f10c0573b2b0ee743d8ef5b4ba8be544
+Command: [b4531fe35eb4505a98dc6617a66ce886, findElement {using=xpath, value=//div[@class='slds-icon-waffle']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\PHANTOM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57427}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57427/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b4531fe35eb4505a98dc6617a66ce886
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -725,18 +725,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NewOpportunity -->
-        <test-method is-config="true" signature="ErrorScreenshot(org.testng.ITestResult)[pri:0, instance:sprint1.CreateOpportunity@506ae4d4]" started-at="2024-06-29T15:03:43 IST" name="ErrorScreenshot" finished-at="2024-06-29T15:03:43 IST" duration-ms="338" status="PASS">
+        <test-method is-config="true" signature="ErrorScreenshot(org.testng.ITestResult)[pri:0, instance:sprint1.CreateOpportunity@b9b00e0]" started-at="2024-06-29T17:57:41 IST" name="ErrorScreenshot" finished-at="2024-06-29T17:57:41 IST" duration-ms="386" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=NewOpportunity status=FAILURE method=CreateOpportunity.NewOpportunity(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sprint1.CreateOpportunity@506ae4d4] output={null}]]]>
+                <![CDATA[[TestResult name=NewOpportunity status=FAILURE method=CreateOpportunity.NewOpportunity(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sprint1.CreateOpportunity@b9b00e0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ErrorScreenshot -->
-        <test-method is-config="true" signature="stopTheScript()[pri:0, instance:sprint1.CreateOpportunity@506ae4d4]" started-at="2024-06-29T15:03:43 IST" name="stopTheScript" finished-at="2024-06-29T15:03:43 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="stopTheScript()[pri:0, instance:sprint1.CreateOpportunity@b9b00e0]" started-at="2024-06-29T17:57:41 IST" name="stopTheScript" finished-at="2024-06-29T17:57:41 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopTheScript -->
